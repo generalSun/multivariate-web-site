@@ -1,0 +1,107 @@
+{
+  "id": "2851715",
+  "name": "mpfront",
+  "font_family": "element-icons",
+  "css_prefix_text": "el-icon-",
+  "description": "mpfront",
+  "glyphs": [
+    {
+      "icon_id": "35043476",
+      "name": "save",
+      "font_class": "save",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "6298812",
+      "name": "all_filter",
+      "font_class": "all_filter",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "8392645",
+      "name": "filter",
+      "font_class": "filter",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "356445",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "6219336",
+      "name": "在线状态",
+      "font_class": "online",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "21623502",
+      "name": "离开状态",
+      "font_class": "away",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "25294457",
+      "name": "离线状态",
+      "font_class": "offline",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "28181666",
+      "name": "忙碌状态",
+      "font_class": "busy",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "34177567",
+      "name": "状态-请勿打扰",
+      "font_class": "doNotDisturb",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1469225",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e85a",
+      "unicode_decimal": 59482
+    },
+    {
+      "icon_id": "31310820",
+      "name": "中英文切换-英文",
+      "font_class": "yingwen",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "31310821",
+      "name": "中英文切换-中文",
+      "font_class": "zhongwen",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "31888948",
+      "name": "中英文",
+      "font_class": "zhcn",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "38214211",
+      "name": "中英文-copy",
+      "font_class": "en",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

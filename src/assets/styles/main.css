@@ -1,0 +1,45 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-weight: normal;
+  height: 100%;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+/* 整个滚动条 */
+::-webkit-scrollbar {
+  width: 10px; /* 水平滚动条的高度 */
+  height: 10px; /* 垂直滚动条的宽度 */
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* 轨道背景颜色 */
+  border-radius: 5px; /* 圆角 */
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  background: #888; /* 滑块颜色 */
+  border-radius: 5px; /* 圆角 */
+}
+
+/* 滑块悬停时的样式 */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* 悬停时的颜色 */
+}

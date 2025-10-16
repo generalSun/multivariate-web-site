@@ -1,0 +1,36 @@
+<script setup>
+import { computed, useTemplateRef } from 'vue'
+import { ElOption } from 'element-plus'
+defineOptions({
+  name: 'uiOption',
+})
+const { cssModule } = defineProps({
+  cssModule: {
+    type: [String, Array],
+    default: '',
+  },
+})
+const classes = computed(() => {
+  const classList = ['ui-option']
+  if (typeof cssModule === 'string') {
+    classList.push(cssModule)
+  } else if (Array.isArray(cssModule)) {
+    classList.push(...cssModule)
+  }
+  return classList
+})
+const uiRef = useTemplateRef('uiRef')
+defineExpose({
+  getUIRef() {
+    return uiRef.value
+  },
+})
+</script>
+<template>
+  <ElOption ref="uiRef" :class="classes">
+    <template v-for="key of Object.keys($slots)" :key="key" v-slot:[key]="scoped">
+      <slot v-if="key" :name="key" v-bind="scoped"></slot>
+    </template>
+  </ElOption>
+</template>
+<style lang="scss" scoped></style>
