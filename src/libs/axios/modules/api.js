@@ -14,9 +14,10 @@ export const getModules = async (params) => {
 }
 export const createModules = async (params) => {
   if (isEnv('development')) {
-    const data = await storage.getItem(STORAGE_KEYS.USER_MODULES).then((value = '') => JSON.parse(value))
+    const res = await storage.getItem(STORAGE_KEYS.USER_MODULES).then((value = '') => JSON.parse(value))
+    const data = res ?? []
     const index = data.findIndex((item) => item.id === params.id)
-    let result = {}
+    let result
     if (index >= 0) {
       const temp = data[index]
       result = {
